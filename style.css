@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+    text-align:center;
+    margin-top:60px;
+}
+
+textarea{
+    width:400px;
+    height:120px;
+    padding:10px;
+}
+
+input{
+    padding:10px;
+    width:200px;
+}
+
+button{
+    padding:10px 20px;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+#copyBtn{
+    margin-top:20px;
+    background-color:#28a745;
+    color:white;
+}
+
+#backBtn{
+    margin-top:20px;
+    background-color:#6c757d;
+    color:white;
+}
+
+pre{
+    background:#f4f4f4;
+    padding:15px;
+    margin-top:20px;
+    display:inline-block;
+}
