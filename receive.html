@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Receive Share</title>
+    <title>QuickShare - Receive</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div id = "container">
-<h1 id = "share-header">Retrieve Shared Content</h1>
 
-<input id="codeInput" placeholder="Enter Code">
+<div id="name">
+    <h1>Quick Share</h1>
+</div>
+
+<div id="header">
+
+<input id="codeInput" placeholder="Enter share code">
 
 <br><br>
 
-<button onclick="getShare()" id = "getcontent">Get Content</button>
+<button onclick="getShare()">Get Text</button>
 
-<div id = "outputDiv">
-    your content will appear here
-</div>
-<button id="copyBtn" onclick="copyText()">Copy</button>
+<h2 id="output"></h2>
+
+<br>
+
+<button onclick="copyText()">Copy Text</button>
 
 <br><br>
 
 <a href="index.html">
-<button id="backBtn">Back</button>
+<button>Back to Share Page</button>
 </a>
+
 </div>
+
 <script src="config.js"></script>
-<script src = "share.js"></script>
 <script src="receive.js"></script>
 
 </body>
