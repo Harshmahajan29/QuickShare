@@ -6,17 +6,18 @@
 </head>
 
 <body>
-
-<h1>Retrieve Shared Content</h1>
+<div id = "container">
+<h1 id = "share-header">Retrieve Shared Content</h1>
 
 <input id="codeInput" placeholder="Enter Code">
 
 <br><br>
 
-<button onclick="getShare()">Get Content</button>
+<button onclick="getShare()" id = "getcontent">Get Content</button>
 
-<pre id="output"></pre>
-
+<div id = "outputDiv">
+    your content will appear here
+</div>
 <button id="copyBtn" onclick="copyText()">Copy</button>
 
 <br><br>
@@ -24,9 +25,10 @@
 <a href="index.html">
 <button id="backBtn">Back</button>
 </a>
-
-<script src="js/config.js"></script>
-<script src="js/receive.js"></script>
+</div>
+<script src="config.js"></script>
+<script src = "share.js"></script>
+<script src="receive.js"></script>
 
 </body>
 </html>

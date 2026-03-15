@@ -1,15 +1,42 @@
 body{
-    font-family: Arial;
+    background-color: #F2BFA4;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#name{
+    display: inline-block;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #ee7715;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+   
+}
+h1{
     text-align:center;
-    margin-top:60px;
-    background-color: aqua;
+    color:rgb(245, 243, 241);
+    font-size:40px;
+    margin-bottom:40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
+#share-header{
+    text-align:center;
+    color:rgb(246, 130, 15)
+   
+}
 textarea{
-    width:400px;
-    height:120px;
-    padding:10px;
+    width:900px;
+    height:200px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    padding:15px;
+    font-size:16px;
+    outline:none;
 }
+textarea:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 5px rgba(37,99,235,0.5);}
 
 input{
     padding:10px;
@@ -18,22 +45,43 @@ input{
 
 button{
     padding:10px 20px;
-    margin-top:15px;
-    cursor:pointer;
+    margin-top:10px;
+    background-color:#31d541;
+    color:white;
+    border-radius: 10px;
+    border: 1px solid #007bff;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover{
+    background-color:#0056b3;
+    transform: scale(1.05);
 }
 
 #copyBtn{
     margin-top:20px;
     background-color:#28a745;
     color:white;
+    border: 1px solid orange;
+    border-radius: 4px; 
+    transform: background-color 0.3s, transform 0.3s;
+}
+#copyBtn:hover{
+    background-color:#218838;
+    transform: scale(1.05);
 }
 
 #backBtn{
-    margin-top:20px;
-    background-color:#6c757d;
+  margin-top:20px;
+    background-color:#28a745;
     color:white;
+    border: 1px solid orange;
+    border-radius: 4px; 
+    transform: background-color 0.3s, transform 0.3s;
 }
-
+#backBtn:hover{
+    background-color:#218838;
+    transform: scale(1.05);
+}
 pre{
     background:#f4f4f4;
     padding:15px;
@@ -41,8 +89,49 @@ pre{
     display:inline-block;
 }
 #header{
-    background-color: #007bff;
+    background-color: #F5E7DE;
     color: white;
     padding: 20px 0;
     margin-bottom: 30px;
+    margin-top: 0;
+    border-radius: 10px;
+
+}
+#container{
+    background-color: #F5E7DE;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    min-width: 600px;
+}
+#outputDiv{
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    border: #ee7715 dotted;
+    min-height: 100px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+#getcontent{
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 4px;
+}
+#getcontent:hover{
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+#codeInput{
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    border: 3px dotted #ee7715;
+    border-radius: 10px;
 }
